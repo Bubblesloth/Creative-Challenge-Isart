@@ -20,7 +20,6 @@ float rayStrength(vec2 raySource, vec2 rayRefDirection, vec2 coord, float seedA,
 	  0.0, 1.0) *
 	  clamp((iResolution.x - length(sourceToCoord)) / iResolution.x, 0.5, 1.0);
 }
-
 void main()
 {
   vec2 coord = vec2(fragCoord.x, fragCoord.y);
