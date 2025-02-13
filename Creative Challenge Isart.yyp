@@ -39,6 +39,7 @@
     {"id":{"name":"obj_white","path":"objects/obj_white/obj_white.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sh_godrays","path":"shaders/sh_godrays/sh_godrays.yy",},},
+    {"id":{"name":"sh_underwater","path":"shaders/sh_underwater/sh_underwater.yy",},},
     {"id":{"name":"s_green","path":"sprites/s_green/s_green.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
   ],
