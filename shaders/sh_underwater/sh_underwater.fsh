@@ -13,13 +13,13 @@ uniform sampler2D tex_water;
 
 // Settings
 
-#define speed 2.0
+#define speed 3.0
 
-#define xDistMag 0.05
-#define yDistMag 0.05
+#define xDistMag 0.00125
+#define yDistMag 0.00125
 
-#define xSineCycles 6.28
-#define ySineCycles 6.28
+#define xSineCycles 6.126
+#define ySineCycles 6.126
 
 //Code
 
@@ -27,12 +27,8 @@ void main()
 {
 	vec2 uv = vec2(fragCoord.x,fragCoord.y);
 	
-	
-	float minRes = min (iResolution.x,iResolution.y);	
-	
+	uv = fragCoord.xy / iResolution.xy;	
 
-	uv /= minRes;
-	
 	float time = iGlobalTime*speed;
 	float xAngle = time + fragCoord.y * ySineCycles;
 	float yAngle = time + fragCoord.x * xSineCycles;
