@@ -12,13 +12,13 @@ surface_reset_target();
 
 shader_set(sh_underwater);
 
-shader_set_uniform_f(u_resolution_water,800.0,600.0);
+shader_set_uniform_f(u_resolution_water,room_width,room_height);
 
 shader_set_uniform_f(u_seconds_water,sec);
 
 texture_set_stage(u_texture_water, surface_get_texture(surf_water));
 
-draw_rectangle(0,0,display_get_width(),display_get_height(),false);
+draw_rectangle(0,0,room_width,room_height,false);
 
 shader_reset();
 
