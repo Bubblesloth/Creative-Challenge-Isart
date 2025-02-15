@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_green",
-    "path":"sprites/s_green/s_green.yy",
+    "name":"s_background",
+    "path":"sprites/s_background/s_background.yy",
   },
   "spriteMaskId":null,
   "visible":true,

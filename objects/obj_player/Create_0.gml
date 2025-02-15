@@ -13,4 +13,6 @@
 x=0+sprite_width/2;
 y=0+sprite_height/2;
 
+//scr_replace(self);
+
 toomuchBool = true;

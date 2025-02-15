@@ -13,7 +13,7 @@ uniform sampler2D tex_water;
 
 // Settings
 
-#define speed 3.0
+#define speed 2.0
 
 #define xDistMag 0.00125
 #define yDistMag 0.00125
