@@ -9,10 +9,10 @@
 #macro ddown keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))
 
 
+replaceFlag = false;
+move_speed = 0.1;
 
-x=0+sprite_width/2;
-y=0+sprite_height/2;
+move=false;
 
-//scr_replace(self);
-
-toomuchBool = true;
+xtarget=x;
+ytarget=y;

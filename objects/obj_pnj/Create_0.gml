@@ -1,2 +1,1 @@
-scr_replace(self);
-
+replaceFlag = false;
