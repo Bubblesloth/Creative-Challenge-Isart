@@ -28,7 +28,7 @@ if !global.talking{
             }
     	}
         else{
-            if dialog != noone && place_meeting(x+20,y,obj_collision){
+            if dialog != noone && place_meeting(x+20,y,obj_collision) && !move{
                 instance_create_layer(x,y,"Dialogs",dialog)
                 global.talking = true
             }
@@ -52,7 +52,7 @@ if !global.talking{
                }
        	    }
             else{
-                if dialog != noone && place_meeting(x-20,y,obj_collision){
+                if dialog != noone && place_meeting(x-20,y,obj_collision) && !move{
                     instance_create_layer(x,y,"Dialogs",dialog)
                     global.talking = true
                 }
@@ -76,7 +76,7 @@ if !global.talking{
                  }
             }
             else{
-                if dialog != noone && place_meeting(x,y-20,obj_collision){
+                if dialog != noone && place_meeting(x,y-20,obj_collision) && !move{
                     instance_create_layer(x,y,"Dialogs",dialog)
                     global.talking = true
                 }
@@ -100,7 +100,7 @@ if !global.talking{
                      } 
                 }
                 else{
-                    if dialog != noone && place_meeting(x,y+20,obj_collision){
+                    if dialog != noone && place_meeting(x,y+20,obj_collision) && !move{
                         instance_create_layer(x,y,"Dialogs",dialog)
                         global.talking = true
                     }

@@ -14,7 +14,10 @@ if !showing_dialog{
 }
 else{
     if keyboard_check_released(key_next){
-        showing_dialog=false
-        alpha=0
+        if !firstclick{
+            showing_dialog=false
+            alpha=0
+        }
+        else firstclick = false
     }
 }
