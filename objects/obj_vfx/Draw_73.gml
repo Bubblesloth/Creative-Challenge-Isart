@@ -1,8 +1,11 @@
+/// @description Insérez la description ici
+// Vous pouvez écrire votre code dans cet éditeur
+
 //draw_surface(application_surface,0,0);
 
 if (surface_exists(surf_water) == false)
 {
-	surf_water = surface_create(1024,1024);	
+    surf_water = surface_create(1024,1024);	
 }
 
 surface_set_target(surf_water);

@@ -15,6 +15,7 @@
     {"$GMFolder":"","%Name":"Courbes d’animation","folderPath":"folders/Courbes d’animation.yy","name":"Courbes d’animation","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objets","folderPath":"folders/Objets.yy","name":"Objets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Dialogs","folderPath":"folders/Objets/Dialogs.yy","name":"Dialogs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pnj","folderPath":"folders/Objets/Pnj.yy","name":"Pnj","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Walls","folderPath":"folders/Objets/Walls.yy","name":"Walls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -37,6 +38,8 @@
   "name":"Creative Challenge Isart",
   "resources":[
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
+    {"id":{"name":"obj_dialog_pnj","path":"objects/obj_dialog_pnj/obj_dialog_pnj.yy",},},
+    {"id":{"name":"obj_dialogue_parent","path":"objects/obj_dialogue_parent/obj_dialogue_parent.yy",},},
     {"id":{"name":"obj_lim","path":"objects/obj_lim/obj_lim.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_pnj","path":"objects/obj_pnj/obj_pnj.yy",},},

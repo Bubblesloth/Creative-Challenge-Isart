@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_vfx",
+  "%Name":"obj_dialog_pnj",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_vfx",
+  "name":"obj_dialog_pnj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objets",
-    "path":"folders/Objets.yy",
+    "name":"Dialogs",
+    "path":"folders/Objets/Dialogs.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_dialogue_parent",
+    "path":"objects/obj_dialogue_parent/obj_dialogue_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

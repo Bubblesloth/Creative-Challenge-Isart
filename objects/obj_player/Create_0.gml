@@ -10,9 +10,15 @@
 
 
 replaceFlag = false;
-move_speed = 0.1;
+move_speed = 0.25;
 
 move=false;
+dialog = noone
 
 xtarget=x;
 ytarget=y;
+
+targetangle=0
+targetscale=1
+
+global.talking = false

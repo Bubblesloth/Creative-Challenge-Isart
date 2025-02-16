@@ -1,4 +1,5 @@
-
+/// @description Insérez la description ici
+// Vous pouvez écrire votre code dans cet éditeur
 draw_set_color(c_gray);
 draw_set_alpha(0.5);
 

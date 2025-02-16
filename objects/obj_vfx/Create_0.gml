@@ -13,4 +13,5 @@ u_texture_water = shader_get_sampler_index(sh_underwater, "tex_water");
 
 surf_water = surface_create(1024,1024); //change la taille des elm visible
 
+
 sec = 0;
