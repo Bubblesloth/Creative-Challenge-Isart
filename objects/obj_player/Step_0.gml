@@ -15,7 +15,7 @@ if replaceFlag == false{
 
 if !global.talking{
     //Right
-    if rright{
+    if rright && move = false{
     	if !place_meeting(x+sprite_width,y,obj_collision){
             targetangle=0;
             targetscale=1;
@@ -111,9 +111,9 @@ if !global.talking{
    }
 }
 ///////////////////////////////////////////////////////////////////////
-    
+
     if move{
-        if x != xtarget || y!= ytarget{
+        if abs(x - xtarget) > 0.5 || abs(y - ytarget) > 0.5 {
             if x != xtarget{
                 x=lerp(x,xtarget,move_speed);
             }
@@ -122,6 +122,8 @@ if !global.talking{
             } 
         }
         else{
+            x = xtarget;
+            y = ytarget;
             move=false;
         }
     }
@@ -161,9 +163,10 @@ else{
 
 
 
-////////////////
-/// DIALOGUE ///
-////////////////
+////////////////////
+/// FIN DIALOGUE ///
+////////////////////
+
 if place_meeting(x,y,obj_lim){
 	instance_destroy();	
 }

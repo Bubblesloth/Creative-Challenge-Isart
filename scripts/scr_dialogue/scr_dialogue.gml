@@ -2,10 +2,11 @@ function scr_dialogue() constructor{
     
     _dialogs = [];
     
-    add = function(_sprite, _message){
+    add = function(_sprite, _message, _choice){
         array_push(_dialogs, {
             sprite: _sprite,
             message: _message,
+            choice: _choice
         });
     }
     

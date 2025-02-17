@@ -7,6 +7,7 @@ event_inherited();
 font = f_dialog1
 
 
-dialog.add(s_pnj1Head,"Hey Dude");
-dialog.add(s_pnj1Head,"Who are U :3");
-dialog.add(s_pnj1Head,"I love u <3");
+dialog.add(s_pnj1Head,"Hey Dude",false);
+dialog.add(s_pnj1Head,"Who are U :3",false);
+dialog.add(s_pnj1Head,"I love u <3",false);
+dialog.add(s_pnj1Head,"Do u like nuggets ?",obj_choice_pnj);

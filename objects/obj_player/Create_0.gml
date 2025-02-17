@@ -22,3 +22,4 @@ targetangle=0
 targetscale=1
 
 global.talking = false
+global.choice = false

@@ -16,6 +16,8 @@
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objets","folderPath":"folders/Objets.yy","name":"Objets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Dialogs","folderPath":"folders/Objets/Dialogs.yy","name":"Dialogs","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Choices","folderPath":"folders/Objets/Dialogs/Choices.yy","name":"Choices","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Parents","folderPath":"folders/Objets/Parents.yy","name":"Parents","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Pnj","folderPath":"folders/Objets/Pnj.yy","name":"Pnj","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Walls","folderPath":"folders/Objets/Walls.yy","name":"Walls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -38,6 +40,8 @@
   "name":"Creative Challenge Isart",
   "resources":[
     {"id":{"name":"f_dialog1","path":"fonts/f_dialog1/f_dialog1.yy",},},
+    {"id":{"name":"obj_choice_parent","path":"objects/obj_choice_parent/obj_choice_parent.yy",},},
+    {"id":{"name":"obj_choice_pnj","path":"objects/obj_choice_pnj/obj_choice_pnj.yy",},},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"obj_dialog_pnj","path":"objects/obj_dialog_pnj/obj_dialog_pnj.yy",},},

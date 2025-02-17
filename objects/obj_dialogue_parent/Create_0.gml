@@ -11,4 +11,4 @@ current_dialog = {};
 
 alpha = 0;
 
-firstclick = true
+firstclick = true;

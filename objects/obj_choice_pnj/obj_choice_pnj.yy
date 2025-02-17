@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialogue_parent",
+  "%Name":"obj_choice_pnj",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":73,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dialogue_parent",
+  "name":"obj_choice_pnj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Parents",
-    "path":"folders/Objets/Parents.yy",
+    "name":"Choices",
+    "path":"folders/Objets/Dialogs/Choices.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_pnj1",
+    "path":"sprites/s_pnj1/s_pnj1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
