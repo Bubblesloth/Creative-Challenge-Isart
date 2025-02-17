@@ -16,5 +16,3 @@ if keyboard_check(vk_alt){
 if keyboard_check(vk_control){
     global.choice=false
 }*/
-
-draw_text(x,y,global.choice)

@@ -1,4 +1,4 @@
 if replaceFlag == false{
-    scr_replace(self,0);
+    scr_replace(self,1);
     replaceFlag = true;
 }

@@ -12,3 +12,5 @@ current_dialog = {};
 alpha = 0;
 
 firstclick = true;
+
+playerypos = 0

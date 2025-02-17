@@ -24,6 +24,7 @@ else{
 
 global.choice = current_dialog.choice;
 
-if !!global.choice{
+if !!global.choice && !obj_player.activechoice{
     instance_create_layer(x,y,"Dialogs",global.choice);
+    obj_player.activechoice=true
 }

@@ -14,6 +14,7 @@ move_speed = 0.25;
 
 move=false;
 dialog = noone
+activechoice = false
 
 xtarget=x;
 ytarget=y;
