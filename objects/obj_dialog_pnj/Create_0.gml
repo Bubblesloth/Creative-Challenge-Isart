@@ -14,3 +14,4 @@ dialog.add("OH YEA ! ME TOO",false,obj_pnj);
 dialog.add("don't talk to me...",false,obj_pnj);
 dialog.add("WTF bro",false,obj_pnj);
 
+sprite_index=noone

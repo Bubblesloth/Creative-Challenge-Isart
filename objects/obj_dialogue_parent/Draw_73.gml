@@ -3,6 +3,7 @@
 
 draw_set_font(font)
 
+
 if showing_dialog{
     var text_x = 300;
     var text_y = 18;

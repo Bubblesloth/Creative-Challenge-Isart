@@ -16,3 +16,8 @@ if keyboard_check(vk_alt){
 if keyboard_check(vk_control){
     global.choice=false
 }*/
+
+/*
+draw_text(50,50, global.choice)
+draw_text(50,70, obj_player.activechoice)
+draw_text(50,90, instance_number(obj_choice_pnj))*/

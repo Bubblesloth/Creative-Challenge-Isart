@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_pnj1Head",
+    "path":"sprites/s_pnj1Head/s_pnj1Head.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

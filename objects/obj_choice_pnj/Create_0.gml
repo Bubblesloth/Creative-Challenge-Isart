@@ -4,4 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+
+obj_player.activechoice=true
 choices = ["ouiiiiiiiiiiiiiiiiiiiiiiiiiii","non"]
+
+sprite_index=noone

@@ -12,7 +12,7 @@ if !showing_dialog{
       showing_dialog = true;
     }
 }
-else{ show_debug_message(global.choice)
+else{ 
     if keyboard_check_released(key_next) && !global.choice || global.choice_selected{
 
         if !firstclick{
@@ -28,9 +28,9 @@ else{ show_debug_message(global.choice)
 }
 
 global.choice = current_dialog.choice;
-show_debug_message(obj_player.activechoice)
+if global.choice == false obj_player.activechoice=false
 
-if !!global.choice && !obj_player.activechoice{
+if global.choice != false && !obj_player.activechoice{
+    show_debug_message("wtf")
     instance_create_layer(x,y,"Dialogs",global.choice);
-    obj_player.activechoice=true
 }
