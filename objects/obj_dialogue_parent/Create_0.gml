@@ -14,3 +14,5 @@ alpha = 0;
 firstclick = true;
 
 playerypos = 0
+
+global.choice_selected = false

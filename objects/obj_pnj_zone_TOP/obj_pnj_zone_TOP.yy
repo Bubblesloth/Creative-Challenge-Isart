@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_choice_pnj",
+  "%Name":"obj_pnj_zone_TOP",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_choice_pnj",
+  "name":"obj_pnj_zone_TOP",
   "overriddenProperties":[],
   "parent":{
-    "name":"Choices",
-    "path":"folders/Objets/Dialogs/Choices.yy",
+    "name":"Pnj",
+    "path":"folders/Objets/Pnj.yy",
   },
   "parentObjectId":{
-    "name":"obj_choice_parent",
-    "path":"objects/obj_choice_parent/obj_choice_parent.yy",
+    "name":"obj_collision",
+    "path":"objects/obj_collision/obj_collision.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"s_pnj1",
+    "path":"sprites/s_pnj1/s_pnj1.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

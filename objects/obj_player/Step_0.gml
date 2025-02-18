@@ -143,17 +143,45 @@ image_angle = targetangle
 
 //PNJ1
 
-if     place_meeting(x+sprite_width,y,obj_pnj)
-    || place_meeting(x-sprite_width,y,obj_pnj)
-    || place_meeting(x,y-20,obj_pnj)
-    || place_meeting(x,y+20,obj_pnj){ 
+pnj=obj_pnj
+
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj) 
+    || place_meeting(x,y+20,pnj){
     dialog = obj_dialog_pnj
+
 }
 else{
-    dialog = noone
+    //GROS PNJ
+    
+    pnj=obj_grospnj
+    
+    if     place_meeting(x+sprite_width,y,pnj)
+        || place_meeting(x-sprite_width,y,pnj)
+        || place_meeting(x,y-20,pnj)
+        || place_meeting(x,y+20,pnj){ 
+        dialog = obj_dialog_grospnj
+    }
+    else{
+        //ENORME
+        
+        pnj=obj_enormepnj
+        
+        if     place_meeting(x+sprite_width,y,pnj)
+            || place_meeting(x-sprite_width,y,pnj)
+            || place_meeting(x,y-20,pnj)
+            || place_meeting(x,y+20,pnj){ 
+            dialog = obj_dialog_enormepnj
+        }
+    else{
+        dialog = noone
+    }
+    
+    }
 }
 
-
+    
 
 
 

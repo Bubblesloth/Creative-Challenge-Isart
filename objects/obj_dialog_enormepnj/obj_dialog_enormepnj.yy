@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_choice_pnj",
+  "%Name":"obj_dialog_enormepnj",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_choice_pnj",
+  "name":"obj_dialog_enormepnj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Choices",
-    "path":"folders/Objets/Dialogs/Choices.yy",
+    "name":"Dialogs",
+    "path":"folders/Objets/Dialogs.yy",
   },
   "parentObjectId":{
-    "name":"obj_choice_parent",
-    "path":"objects/obj_choice_parent/obj_choice_parent.yy",
+    "name":"obj_dialogue_parent",
+    "path":"objects/obj_dialogue_parent/obj_dialogue_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

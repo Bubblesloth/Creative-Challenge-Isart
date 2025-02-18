@@ -8,6 +8,7 @@
 #macro uup keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("Z"))
 #macro ddown keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))
 
+#macro enter keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space)
 
 replaceFlag = false;
 move_speed = 0.25;
@@ -24,3 +25,5 @@ targetscale=1
 
 global.talking = false
 global.choice = false
+
+pnj=noone

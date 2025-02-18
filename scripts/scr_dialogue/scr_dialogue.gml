@@ -22,4 +22,7 @@ function scr_dialogue() constructor{
         return array_length(_dialogs);
     }
     
+    retturn = function(){
+        return _dialogs
+    }
 }

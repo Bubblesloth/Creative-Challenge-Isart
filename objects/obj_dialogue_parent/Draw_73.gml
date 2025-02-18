@@ -14,12 +14,24 @@ if showing_dialog{
     var width_text = string_width(current_dialog.message) + 2 * padding;
     var height_text = string_height(current_dialog.message) + 2 * padding;
     var text_padding = 10;
+    var _sprite_height = current_dialog.character.sprite_height;
     
-    if abs(characterypos-current_dialog.character.sprite_height - obj_player.y) < 0.5{ // car le place_meeting marchait pas
-        playerypos = 2*current_dialog.character.sprite_height+padding*2;
+    if abs(characterypos-_sprite_height - obj_player.y + (_sprite_height - obj_player.sprite_height)/2) < 0.5 || (characterypos-height_text-padding*2.5-text_padding*2) < 0{ // car le place_meeting marchait pas
+        playerypos = 3*_sprite_height-padding;
+        if current_dialog.character == obj_pnj_zone_TOP{
+            characterxpos = obj_pnj_zone_BOT.x;
+            characterypos = obj_pnj_zone_BOT.y;
+        }
     }
-    else playerypos = 0;
-    
+    else playerypos = 0; 
+        
+    /*
+    draw_text(50,40,playerypos)
+    draw_text(50,60,characterypos-_sprite_height - obj_player.y + (_sprite_height - obj_player.sprite_height)/2)
+    draw_text(50,80,_sprite_height)
+    draw_text(50,100,characterypos)
+    draw_text(50,120,obj_player.y)
+    */
     /*
     height = string_height(current_dialog.message);
     
@@ -34,18 +46,18 @@ if showing_dialog{
     draw_set_alpha(alpha);
     
     draw_set_color(c_black)
-    draw_roundrect(characterxpos-width_text/2-text_padding , characterypos-height_text-padding*2.5-text_padding + playerypos , characterxpos+width_text/2+text_padding , characterypos - padding*2.5 + text_padding  + playerypos,false);
+    draw_roundrect(characterxpos-width_text/2-text_padding , characterypos-height_text-padding*2.5-text_padding*2 + playerypos , characterxpos+width_text/2+text_padding , characterypos - _sprite_height/2 - text_padding + playerypos,false);
     
 
     draw_set_color(c_white);
-    draw_roundrect(characterxpos-width_text/2-text_padding+border , characterypos-height_text-padding*2.5-text_padding+ border + playerypos, characterxpos+width_text/2+text_padding-border , characterypos - padding*2.5 + text_padding -border + playerypos,false);
+    draw_roundrect(characterxpos-width_text/2-text_padding+border , characterypos-height_text-padding*2.5-text_padding*2+ border + playerypos, characterxpos+width_text/2+text_padding-border , characterypos -  _sprite_height/2 - text_padding -border + playerypos,false);
     
     draw_set_color(c_black);
-    draw_roundrect(characterxpos-width_text/2-text_padding+(border*2) , characterypos-height_text-padding*2.5-text_padding+ (border*2) + playerypos, characterxpos+width_text/2+text_padding - (border*2),characterypos - padding*2.5 + text_padding - (border*2) + playerypos,false);
+    draw_roundrect(characterxpos-width_text/2-text_padding+(border*2) , characterypos-height_text-padding*2.5-text_padding*2+ (border*2) + playerypos, characterxpos+width_text/2+text_padding - (border*2),characterypos - _sprite_height/2 - text_padding - (border*2) + playerypos,false);
     
 
     draw_set_color(c_white);
-    draw_text_ext(characterxpos-width_text/2-text_padding+(border*2)+padding , characterypos-height_text - padding*2.5-text_padding + (border*2)+padding + playerypos,current_dialog.message, padding, display_get_gui_width()-192);
+    draw_text_ext(characterxpos-width_text/2-text_padding+(border*2)+padding , characterypos-height_text-padding*2.5-text_padding*2 + (border*2)+padding + playerypos,current_dialog.message, padding, display_get_gui_width()-192);
     
     alpha = lerp(alpha,1,0.060);
     

@@ -5,8 +5,15 @@ var height = 64;
 var ypos = 180; 
 var padding = 50;
 var text_padding = 10;
+var offset_x = 0;
+var offset_y = 430;
 
 draw_set_font(f_dialog1);
+
+alpha = lerp(alpha,1,0.060);
+draw_set_alpha(alpha);
+draw_set_color(c_black)
+draw_rectangle(0,display_get_gui_height()-200,display_get_gui_width(),display_get_gui_height(),false)
 
 switch (array_length(choices)) {
     case 2:
@@ -22,14 +29,21 @@ switch (array_length(choices)) {
         var xpos1 = room_width/2-width1/2
         var xpos2 = room_width/2-width2/2
         var rect_ypos = ypos; 
-
-        draw_set_color(c_black);
-        draw_rectangle(xpos1, rect_ypos, xpos1 + width1, rect_ypos + rect_height, false);
-        draw_rectangle(xpos2, rect_ypos+height, xpos2 + width2, rect_ypos +height+ rect_height, false);
+    
+        draw_set_color(#181414);
+    
+        if choice ==0{
+        draw_roundrect(xpos1, rect_ypos+offset_y, xpos1 + width1, rect_ypos + rect_height +offset_y, false);}
+        if choice == 1{
+        draw_roundrect(xpos2, rect_ypos+height +offset_y, xpos2 + width2, rect_ypos +height+ rect_height +offset_y, false);}
 
         // Dessiner le texte au centre des rectangles
         draw_set_color(c_white);
-        draw_text(xpos1 + width1 / 2 - string_width(text1) / 2, rect_ypos + text_padding, text1);
-        draw_text(xpos2 + width2 / 2 - string_width(text2) / 2, rect_ypos +height+ text_padding, text2);
+        draw_text(xpos1 + width1 / 2 - string_width(text1) / 2, rect_ypos + text_padding +offset_y, text1);
+        draw_text(xpos2 + width2 / 2 - string_width(text2) / 2, rect_ypos +height+ text_padding +offset_y, text2);
     break;
+    
+
 }
+
+draw_set_alpha(1)
