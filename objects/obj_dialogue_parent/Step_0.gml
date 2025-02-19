@@ -31,6 +31,6 @@ global.choice = current_dialog.choice;
 if global.choice == false obj_player.activechoice=false
 
 if global.choice != false && !obj_player.activechoice{
-    show_debug_message("wtf")
+
     instance_create_layer(x,y,"Dialogs",global.choice);
 }

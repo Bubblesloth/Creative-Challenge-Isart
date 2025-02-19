@@ -10,8 +10,14 @@ if showing_dialog{
     var height = 32;
     var border = 5;
     var padding = 20;
+    if current_dialog.character != obj_player{
     var characterxpos = current_dialog.character.x;
     var characterypos = current_dialog.character.y;
+    }
+    else{
+        var characterxpos = 682
+        var characterypos = display_get_height()-400
+    }
     var width_text = string_width(current_dialog.message) + 2 * padding;
     var height_text = string_height(current_dialog.message) + 2 * padding;
     var text_padding = 10;

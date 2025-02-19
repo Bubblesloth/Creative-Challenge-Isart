@@ -32,7 +32,7 @@ if enter{
 switch(choosed){
     case 0:
 
-        array_delete(objdialog.dialog.retturn(),1,1)
+        array_delete(objdialog.dialog.retturn(),2,2)
 
         choosed = noone
 
@@ -40,7 +40,7 @@ switch(choosed){
     
     case 1: 
 
-        array_delete(objdialog.dialog.retturn(),0,1)
+        array_delete(objdialog.dialog.retturn(),0,2)
 
         choosed = noone
     break;
