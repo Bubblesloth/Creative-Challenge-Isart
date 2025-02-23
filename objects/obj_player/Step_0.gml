@@ -1,14 +1,12 @@
-
 if replaceFlag == false{
+    
     scr_replace(self,1);
     xtarget=x;
     ytarget=y;
     replaceFlag = true;
 }
-
-
-
-
+  
+  
 ///////////////////
 /// DEPLACEMENT ///
 ///////////////////
@@ -17,6 +15,7 @@ if !global.talking{
     //Right
     if rright && move = false{
     	if !place_meeting(x+sprite_width,y,obj_collision){
+            dirimage=0
             targetangle=0;
             targetscale=1;
             if move == false{
@@ -24,6 +23,7 @@ if !global.talking{
                 xtarget = sprite_width+x;
             }
             else{
+                dirimage=0
                 xtarget += sprite_width;
             }
     	}
@@ -42,7 +42,8 @@ if !global.talking{
        if lleft{
             targetangle=180;
             targetscale=-1;
-            if !place_meeting(x-sprite_width,y,obj_collision){
+            if !place_meeting(x-sprite_width,y,obj_collision){ 
+                dirimage=2;
                if move == false{
                    move=true;
                    xtarget = x-sprite_width;
@@ -67,6 +68,7 @@ if !global.talking{
             targetangle=90;
             targetscale=1;
          	if !place_meeting(x,y-sprite_height,obj_collision){
+                 dirimage=1;
                  if move == false{
                      move=true;
                      ytarget = y-sprite_height;
@@ -90,9 +92,10 @@ if !global.talking{
              if ddown{
                 targetangle=270;
                 targetscale=1;
-                if !place_meeting(x,y+sprite_height,obj_collision){
+                if !place_meeting(x,y+sprite_height,obj_collision){ 
+                    dirimage=3;
                      if move == false{
-                         move=true;
+                         move=true; 
                          ytarget = y+sprite_height;
                      }
                      else{
@@ -128,7 +131,7 @@ if !global.talking{
         }
     }
 
-image_angle = targetangle
+image_index = dirimage
 
 
 ///////////////////////
