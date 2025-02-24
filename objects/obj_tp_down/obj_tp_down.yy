@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tp",
+  "%Name":"obj_tp_down",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tp",
+  "name":"obj_tp_down",
   "overriddenProperties":[],
   "parent":{
     "name":"Objets",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_tp",
-    "path":"sprites/s_tp/s_tp.yy",
+    "name":"s_tp_3",
+    "path":"sprites/s_tp_3/s_tp_3.yy",
   },
   "spriteMaskId":null,
   "visible":false,
