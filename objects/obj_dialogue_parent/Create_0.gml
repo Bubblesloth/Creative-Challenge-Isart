@@ -16,3 +16,5 @@ firstclick = true;
 playerypos = 0
 
 global.choice_selected = false
+
+color = c_black

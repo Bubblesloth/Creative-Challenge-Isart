@@ -9,8 +9,8 @@
   "name":"obj_grospnj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pnj",
-    "path":"folders/Objets/Pnj.yy",
+    "name":"tests",
+    "path":"folders/Objets/Pnj/tests.yy",
   },
   "parentObjectId":{
     "name":"obj_collision",

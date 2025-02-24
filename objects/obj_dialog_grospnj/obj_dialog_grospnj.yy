@@ -8,8 +8,8 @@
   "name":"obj_dialog_grospnj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dialogs",
-    "path":"folders/Objets/Dialogs.yy",
+    "name":"tests",
+    "path":"folders/Objets/Dialogs/tests.yy",
   },
   "parentObjectId":{
     "name":"obj_dialogue_parent",

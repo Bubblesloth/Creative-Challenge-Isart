@@ -156,34 +156,90 @@ if     place_meeting(x+sprite_width,y,pnj)
 
 }
 else{
-    //GROS PNJ
     
-    pnj=obj_grospnj
+//GROS PNJ
+    
+pnj=obj_grospnj
+    
+if  place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    dialog = obj_dialog_grospnj 
+}
+    
+else{
+
+//ENORME
+        
+pnj=obj_enormepnj
+        
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    dialog = obj_dialog_enormepnj 
+}
+    
+else{
+         
+pnj = obj_spawnpnj
     
     if     place_meeting(x+sprite_width,y,pnj)
         || place_meeting(x-sprite_width,y,pnj)
         || place_meeting(x,y-20,pnj)
         || place_meeting(x,y+20,pnj){ 
-        dialog = obj_dialog_grospnj
+    dialog = obj_dialog_spawn
+}
+    
+else{
+            
+pnj = obj_langousti
+        
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    if room == r_langousti_1{
+        dialog = obj_dialog_langousti
     }
-    else{
-        //ENORME
+}  
+    
+else{
+    
+pnj = obj_forme_humaine
+            
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    dialog = obj_dialog_forme_humaine;
+}  
         
-        pnj=obj_enormepnj
+else{
+                
+pnj = obj_indecis
+            
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    if room == r_indecis_1{ 
+        dialog = obj_dialog_indecis_1
+    } 
+}  
         
-        if     place_meeting(x+sprite_width,y,pnj)
-            || place_meeting(x-sprite_width,y,pnj)
-            || place_meeting(x,y-20,pnj)
-            || place_meeting(x,y+20,pnj){ 
-            dialog = obj_dialog_enormepnj
-        }
-    else{
+else{
         dialog = noone
     }
     
-    }
+    
 }
-
+}
+}
+}
+}
+}
     
 
 

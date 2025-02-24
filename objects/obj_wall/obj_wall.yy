@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Walls",
-    "path":"folders/Objets/Walls.yy",
+    "path":"folders/Sprites/Walls.yy",
   },
   "parentObjectId":{
     "name":"obj_collision",

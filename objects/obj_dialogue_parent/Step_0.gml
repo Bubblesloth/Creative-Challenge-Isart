@@ -34,3 +34,21 @@ if global.choice != false && !obj_player.activechoice{
 
     instance_create_layer(x,y,"Dialogs",global.choice);
 }
+
+
+
+
+switch(current_dialog.character){
+    case obj_player:
+        color = #0c004d
+        
+    break;
+    
+    case obj_langousti:
+        color = #990026
+    break
+    
+    case obj_indecis:
+        color = #4fb3ff
+    break;
+}

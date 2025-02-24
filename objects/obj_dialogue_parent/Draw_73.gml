@@ -52,20 +52,26 @@ if showing_dialog{
     
     draw_set_alpha(alpha);
     
-    draw_set_color(c_black)
+    draw_set_color(color)
     draw_roundrect(characterxpos-width_text/2-text_padding , characterypos-height_text-padding*2.5-text_padding*2 + playerypos , characterxpos+width_text/2+text_padding , characterypos - _sprite_height/2 - text_padding + playerypos,false);
     
 
     draw_set_color(c_white);
     draw_roundrect(characterxpos-width_text/2-text_padding+border , characterypos-height_text-padding*2.5-text_padding*2+ border + playerypos, characterxpos+width_text/2+text_padding-border , characterypos -  _sprite_height/2 - text_padding -border + playerypos,false);
     
-    draw_set_color(c_black);
+    draw_set_color(color);
     draw_roundrect(characterxpos-width_text/2-text_padding+(border*2) , characterypos-height_text-padding*2.5-text_padding*2+ (border*2) + playerypos, characterxpos+width_text/2+text_padding - (border*2),characterypos - _sprite_height/2 - text_padding - (border*2) + playerypos,false);
     
 
     draw_set_color(c_white);
-    draw_text_ext(characterxpos-width_text/2-text_padding+(border*2)+padding , characterypos-height_text-padding*2.5-text_padding*2 + (border*2)+padding + playerypos,current_dialog.message, padding, display_get_gui_width()-192);
+    if current_dialog.character.sprite_height <=64{
+        draw_text_ext(characterxpos-width_text/2-text_padding+(border*2)+padding , characterypos-height_text-padding*2.5-text_padding*2 + (border*2)+padding + playerypos +5,current_dialog.message, padding, display_get_gui_width()-192);
+    }
+    else if current_dialog.character.sprite_height >=128{
+        draw_text_ext(characterxpos-width_text/2-text_padding+(border*2)+padding , characterypos-height_text-padding*2.5-text_padding*2 + (border*2)+padding + playerypos -10,current_dialog.message, padding, display_get_gui_width()-192); 
+    }
     
+        
     alpha = lerp(alpha,1,0.060);
     
  /*

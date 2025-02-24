@@ -119,10 +119,19 @@
     {"name":"inst_32FF4FC0","path":"rooms/r_spawn/r_spawn.yy",},
     {"name":"inst_65421878","path":"rooms/r_spawn/r_spawn.yy",},
     {"name":"inst_6CAC669A","path":"rooms/r_spawn/r_spawn.yy",},
+    {"name":"inst_583B24EB","path":"rooms/r_spawn/r_spawn.yy",},
+    {"name":"inst_6572217F","path":"rooms/r_spawn/r_spawn.yy",},
+    {"name":"inst_4E98F67F","path":"rooms/r_spawn/r_spawn.yy",},
+    {"name":"inst_5BEC7174","path":"rooms/r_spawn/r_spawn.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Dialogs","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Dialogs","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Dialogs","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_583B24EB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_583B24EB","objectId":{"name":"obj_spawnpnj","path":"objects/obj_spawnpnj/obj_spawnpnj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6572217F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6572217F","objectId":{"name":"obj_spawnpnj","path":"objects/obj_spawnpnj/obj_spawnpnj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":288.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4E98F67F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E98F67F","objectId":{"name":"obj_spawnpnj","path":"objects/obj_spawnpnj/obj_spawnpnj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":416.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5BEC7174","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5BEC7174","objectId":{"name":"obj_spawnpnj","path":"objects/obj_spawnpnj/obj_spawnpnj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":352.0,},
+      ],"layers":[],"name":"Dialogs","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"HUD","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_539B5FC7_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_539B5FC7_1","objectId":{"name":"obj_tiles","path":"objects/obj_tiles/obj_tiles.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-2.4163797,"scaleX":9.0,"scaleY":7.0,"x":-288.0,"y":160.0,},
       ],"layers":[],"name":"HUD","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
