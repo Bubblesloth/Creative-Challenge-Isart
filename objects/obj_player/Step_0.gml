@@ -226,21 +226,64 @@ if     place_meeting(x+sprite_width,y,pnj)
     || place_meeting(x,y+20,pnj){ 
     if room == r_indecis_1{ 
         dialog = obj_dialog_indecis_1
-    } 
+    }
+    else if room == r_indecis_2{
+        dialog = obj_dialog_indecis_2
+    }
+    else if room == r_indecis_3_1{
+        dialog = obj_dialog_indecis_3_1
+    }
+    else if room == r_indecis_3_2{
+        dialog = obj_dialog_indecis_3_2
+    }
+} 
+    
+else{
+        
+pnj = obj_felixeau
+                
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    dialog = obj_dialog_leaubrun;
+}  
+    
+else{
+        
+pnj = obj_alexeau
+                
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    dialog = obj_dialog_leaubrun;
+}      
+    
+else{
+            
+pnj = obj_meduse
+                    
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    dialog = obj_dialog_meduse; 
 }  
         
 else{
         dialog = noone
     }
     
-    
 }
 }
 }
 }
 }
 }
-    
+}
+}
+}
 
 
 

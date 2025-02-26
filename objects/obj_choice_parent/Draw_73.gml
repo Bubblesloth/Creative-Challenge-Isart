@@ -43,6 +43,39 @@ switch (array_length(choices)) {
         draw_text(xpos2 + width2 / 2 - string_width(text2) / 2, rect_ypos +height+ text_padding +offset_y, text2);
     break;
     
+    case 3:
+                var text1 = choices[0];
+                var text2 = choices[1];
+                var text3 = choices[2];
+        
+                var width1 = string_width(text1) + 2 * text_padding;
+                var width2 = string_width(text2) + 2 * text_padding;
+                var width3 = string_width(text3) + 2 * text_padding;
+                var rect_height = string_height(text1) + 2 * text_padding;
+        
+                /*var xpos1 = padding;
+                var xpos2 = display_get_gui_width() - width2 - padding;*/
+                var xpos1 = room_width/2-width1/2
+                var xpos2 = room_width/2-width2/2
+                var xpos3 = room_width/2-width3/2
+                var rect_ypos = ypos; 
+                var y3choix = 20
+            
+                draw_set_color(#181414);
+            
+                if choice ==0{
+                draw_roundrect(xpos1, rect_ypos+offset_y-y3choix, xpos1 + width1, rect_ypos + rect_height +offset_y-y3choix, false);}
+                if choice == 1{
+                draw_roundrect(xpos2, rect_ypos+height +offset_y-y3choix, xpos2 + width2, rect_ypos +height+ rect_height +offset_y-y3choix, false);}
+                if choice == 2{ 
+                    draw_roundrect(xpos3, rect_ypos+height +offset_y+y3choix*2, xpos3 + width3, rect_ypos +height+ rect_height +offset_y+y3choix*2, false);}
+        
+                // Dessiner le texte au centre des rectangles
+                draw_set_color(c_white);
+                draw_text(xpos1 + width1 / 2 - string_width(text1) / 2, rect_ypos + text_padding +offset_y-y3choix, text1);
+                draw_text(xpos2 + width2 / 2 - string_width(text2) / 2, rect_ypos +height+ text_padding +offset_y-y3choix, text2);
+                draw_text(xpos3 + width3 / 2 - string_width(text3) / 2, rect_ypos +height+ text_padding +offset_y+y3choix*2, text3);
+    break;
 
 }
 

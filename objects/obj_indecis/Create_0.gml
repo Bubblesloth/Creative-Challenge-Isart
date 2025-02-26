@@ -3,3 +3,4 @@
 
 replaceFlag = false
 part = false
+destroy = true

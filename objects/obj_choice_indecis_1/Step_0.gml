@@ -32,15 +32,15 @@ if enter{
 switch(choosed){
     case 0:
 
-        array_delete(obj_dialog_indecis_1.dialog.retturn(),0,1)
+        array_delete(obj_dialog_indecis_1.dialog.retturn(),1,1)
 
         choosed = noone
 
     break;
     
     case 1: 
-
-        array_delete(obj_dialog_indecis_1.retturn(),1,1)
+        array_delete(obj_dialog_indecis_1.dialog.retturn(),0,1)
+    
 
         choosed = noone
     break;

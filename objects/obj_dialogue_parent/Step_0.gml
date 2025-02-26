@@ -51,4 +51,16 @@ switch(current_dialog.character){
     case obj_indecis:
         color = #4fb3ff
     break;
+    
+    case obj_alexeau:
+        color = #3a8c00
+    break;
+    
+    case obj_felixeau:
+        color = #d6b600
+    break;
+    
+    case obj_meduse:
+        color = #120aff
+    break;
 }

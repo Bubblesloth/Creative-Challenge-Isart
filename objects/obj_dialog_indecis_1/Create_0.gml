@@ -6,6 +6,8 @@ event_inherited();
 
 font = f_dialog1
 
+obj_indecis.destroy = false
+
 dialog.add("Euhhhhhhh...",false,obj_indecis);
 dialog.add("Salut, ça va ?",false,obj_player);
 dialog.add("Nan, ça va pas, pas du tout même !",false,obj_indecis);
