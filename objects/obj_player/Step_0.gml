@@ -286,9 +286,72 @@ if     place_meeting(x+sprite_width,y,pnj)
 }
         
 else{
+                
+pnj = obj_mme_tentacule
+                        
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    
+    if !global.mme_dispawn dialog = obj_dialog_mme; 
+        else dialog = noone
+}  
+        
+else{
+                    
+pnj = obj_mme_crystal
+                            
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){ 
+    if !global.mme_dispawn dialog = obj_dialog_mme; 
+        else dialog = noone
+}  
+            
+else{
+                
+pnj = obj_bar_commun
+            
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_bar_commun
+}
+    
+else{
+                    
+pnj = obj_crab
+                
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_crab
+}
+        
+else{
+                        
+pnj = obj_scie_bastien
+                    
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_scie_bastien
+}
+    
+else{
         dialog = noone
     }
-   
+ 
+}
+}
+}
+}
+}  
 }     
 }
 }

@@ -40,31 +40,47 @@ if global.choice != false && !obj_player.activechoice{
 
 switch(current_dialog.character){
     case obj_player:
-        color = #0c004d
+        color = #0c004d;
         
     break;
     
     case obj_langousti:
-        color = #990026
+        color = #990026;
     break
     
     case obj_indecis:
-        color = #4fb3ff
+        color = #4fb3ff;
     break;
     
     case obj_alexeau:
-        color = #3a8c00
+        color = #3a8c00;
     break;
     
     case obj_felixeau:
-        color = #d6b600
+        color = #d6b600;
     break;
     
     case obj_meduse:
-        color = #120aff
+        color = #120aff;
     break;
     
     case obj_pascalou:
-        color = #c25e00
+        color = #c25e00;
+    break;
+    
+    case obj_mme_tentacule:
+        color = #8200b5;
+    break;
+    
+    case obj_bar_commun:
+        color = #044d00;
+    break;
+    
+    case obj_crab:
+        color = #e69500;
+    break;
+    
+    case obj_scie_bastien:
+        color = #331700;
     break;
 }

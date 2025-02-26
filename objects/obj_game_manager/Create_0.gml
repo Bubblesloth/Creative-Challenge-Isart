@@ -30,3 +30,24 @@ global.destroy_pascalou_spawnzone = false
 global.indecis_final = false
 
 global.part2 = false
+
+global.indecis_pieces = false
+
+global.mme_first_talk = false
+
+global.mme_questionnee = false
+
+global.mme_dispawn = false
+
+global.bar_first_talk = false
+
+global.crab_first_talk = false
+
+global.destroy_plank = false
+
+global.aquhache = false
+
+global.crab_piece = false
+
+global.scie_first_talk = false
+global.crab_quest = false

@@ -32,7 +32,7 @@ if enter{
 switch(choosed){
     case 0:
 
-        array_delete(obj_dialog_leaubrun.dialog.retturn(),6,8)
+        array_delete(obj_dialog_leaubrun.dialog.retturn(),5,8)
 
         choosed = noone
 

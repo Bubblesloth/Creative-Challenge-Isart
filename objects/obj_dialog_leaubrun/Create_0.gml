@@ -79,7 +79,7 @@ else if global.leaubrun_conv && global.indecis_quest && !global.leaubrun_complet
     dialog.add("On n'a vraiment pas le temps, salut !!", false, obj_alexeau);
     
     dialog.add("Je me demande vraiment quel est le problème avec le Joba Mena...", false, obj_player);
-    dialog.add("J'espère vraiment qu'Indécis pourra m'éclairer à ce sujet.", false, obj_player);
+    dialog.add("J'espère vraiment que mon pote indécis pourrait m'éclairer à ce sujet.", false, obj_player);
     dialog.add("Et si j'allais lui rapporter son autographe !", false, obj_player);
     
     

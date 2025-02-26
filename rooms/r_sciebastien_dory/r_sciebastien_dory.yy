@@ -174,10 +174,13 @@
     {"name":"inst_1487C16","path":"rooms/r_sciebastien_dory/r_sciebastien_dory.yy",},
     {"name":"inst_294B2982","path":"rooms/r_sciebastien_dory/r_sciebastien_dory.yy",},
     {"name":"inst_37385481","path":"rooms/r_sciebastien_dory/r_sciebastien_dory.yy",},
+    {"name":"inst_1293F367","path":"rooms/r_sciebastien_dory/r_sciebastien_dory.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"Dialogs","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Dialogs","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Dialogs","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_1293F367","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1293F367","objectId":{"name":"obj_scie_bastien","path":"objects/obj_scie_bastien/obj_scie_bastien.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":448.0,},
+      ],"layers":[],"name":"Dialogs","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"HUD","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_539B5FC7_1_1_1_3_3_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_539B5FC7_1_1_1_3_3_1","objectId":{"name":"obj_tiles","path":"objects/obj_tiles/obj_tiles.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-2.4163797,"scaleX":9.0,"scaleY":7.0,"x":-288.0,"y":160.0,},
       ],"layers":[],"name":"HUD","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

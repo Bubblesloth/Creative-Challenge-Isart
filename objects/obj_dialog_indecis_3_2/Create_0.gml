@@ -107,7 +107,7 @@ else if global.indecis_completed && !global.indecis_3_end{
         dialog.add("Quoi, un problème ?",false,obj_player);
     dialog.add("Pourquoi ils ont dédicacés à : le pote du gars chiant ?",false,obj_indecis);
         dialog.add("Ah euuuhhh...",false,obj_player);
-        dialog.add("AlorT'inquiète !",false,obj_player); 
+        dialog.add("T'inquiète !",false,obj_player); 
         dialog.add("Ah ok...",false,obj_indecis);
     dialog.add("En tout cas, tiens, tes 3 octopièces comme prévu !!",false,obj_indecis);
         dialog.add("Trop cool, merci !",false,obj_player);
