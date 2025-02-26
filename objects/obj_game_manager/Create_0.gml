@@ -24,3 +24,9 @@ global.indecis_3_end = false
 
 global.meduse_nope = false
 global.have_meduse = false
+
+global.destroy_pascalou_spawnzone = false
+
+global.indecis_final = false
+
+global.part2 = false

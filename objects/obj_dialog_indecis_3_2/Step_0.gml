@@ -12,6 +12,5 @@ if current_dialog.message == "Merci mon ami !"{
 }
 
 if current_dialog.message == "Trop cool, merci !" {
-    global.octopieces +=3
     global.indecis_3_end = true
 }

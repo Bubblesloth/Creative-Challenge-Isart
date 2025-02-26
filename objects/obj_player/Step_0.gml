@@ -236,6 +236,9 @@ if     place_meeting(x+sprite_width,y,pnj)
     else if room == r_indecis_3_2{
         dialog = obj_dialog_indecis_3_2
     }
+    else if room == r_indecis_final{ 
+        dialog = obj_dialog_indecis_final
+    }
 } 
     
 else{
@@ -272,9 +275,21 @@ if     place_meeting(x+sprite_width,y,pnj)
 }  
         
 else{
+            
+pnj = obj_pascalou_spawnzone
+        
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_pascalou_1
+}
+        
+else{
         dialog = noone
     }
-    
+   
+}     
 }
 }
 }
@@ -300,4 +315,3 @@ else{
 if place_meeting(x,y,obj_lim){
 	instance_destroy();	
 }
-
