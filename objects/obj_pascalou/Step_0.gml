@@ -21,3 +21,13 @@ if startmove = true && !global.destroy_pascalou_spawnzone{
 }
 
 if part x+=3
+    
+if global.pascalou_dead{
+    sprite_index=s_pascalou
+    obj_pascalou.image_angle=180
+    if tourner = false{
+    obj_pascalou.x+=64
+    obj_pascalou.y+=64
+        tourner = true
+    }
+}

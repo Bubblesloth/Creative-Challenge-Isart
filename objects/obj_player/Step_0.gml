@@ -203,6 +203,12 @@ if     place_meeting(x+sprite_width,y,pnj)
     if room == r_langousti_1{
         dialog = obj_dialog_langousti
     }
+    if room == r_langousti_base && !global.endfinallangousti {
+        dialog = obj_dialog_langousti_final
+    }
+    if room == r_joba_mena {
+        dialog = obj_dialog_langousti_jobamena
+    }
 }  
     
 else{
@@ -344,9 +350,118 @@ if     place_meeting(x+sprite_width,y,pnj)
 }
     
 else{
+                            
+pnj = obj_frog
+                        
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_frog
+}
+    
+else{
+                                
+pnj = obj_pascalou
+                            
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_clown
+}
+        
+else{
+                                    
+pnj = obj_clown
+                                
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_clown
+}
+    
+else{
+                                        
+pnj = obj_dory
+                                    
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_dory
+}
+    
+else{
+                                            
+pnj = obj_poisson_lanterne
+                                        
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_gang
+}
+        
+else{
+                                                
+pnj = obj_anguille
+                                            
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_gang 
+}
+    
+else{
+                                                    
+pnj = obj_gang_zone
+                                                
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_gang 
+}
+                                                        
+        
+else{
+                                                            
+pnj = obj_langousti_zone
+                                                        
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_langousti_final 
+}
+    
+else{
+                                                                
+pnj = obj_joba_mena
+                                                            
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_jobamena_silence 
+}
+    
+else{
         dialog = noone
     }
- 
+    
+}
+}
+}        
+}
+}
+}
+}
+}
+}
 }
 }
 }

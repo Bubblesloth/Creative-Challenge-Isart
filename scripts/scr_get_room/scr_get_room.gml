@@ -119,7 +119,7 @@ function scr_get_room(){
             var _up = r_crab_zozotte;
             var _down = r_poisson_clown;
             var _left = r_indecis_final;
-            var _right = r_indecis_final;
+            var _right = r_grand_me;
         break;
         
             case r_grand_me:

@@ -83,4 +83,32 @@ switch(current_dialog.character){
     case obj_scie_bastien:
         color = #331700;
     break;
+    
+    case obj_frog:
+        color = #008f47;
+    break;
+    
+    case obj_gamedev:
+        color =#460091;
+    break;
+    
+    case obj_clown:
+        color = #ff0019;
+    break;
+    
+    case obj_dory:
+        color = #d500ed;
+    break;
+    
+    case obj_poisson_lanterne:
+        color = #120d00;
+    break;
+    
+    case obj_anguille:
+        color = #171717;
+    break;
+    
+    case obj_joba_mena:
+        color = #1957ff;
+    break;
 }

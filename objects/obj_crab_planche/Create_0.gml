@@ -3,4 +3,4 @@
 replaceFlag = false
 
 
-
+if global.part2 instance_destroy()

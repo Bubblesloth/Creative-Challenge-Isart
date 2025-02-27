@@ -51,3 +51,22 @@ global.crab_piece = false
 
 global.scie_first_talk = false
 global.crab_quest = false
+
+global.lantern = false
+
+global.clown_quest = false
+
+global.clown_completed = false
+
+global.dory_first_talk = false
+
+global.clown_end=false
+global.pascalou_dead=false
+
+global.gang_first_talk = false
+
+global.endfinallangousti = false
+
+global.white_screen = false
+
+global.credits = false
