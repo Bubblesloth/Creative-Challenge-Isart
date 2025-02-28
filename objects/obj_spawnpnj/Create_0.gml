@@ -1,4 +1,7 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 replaceFlag = false
-if global.destroy_spawnpnj instance_destroy()
+if global.destroy_spawnpnj{
+    instance_destroy()
+    global.spawn_white=true   
+}

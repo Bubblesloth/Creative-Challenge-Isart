@@ -18,5 +18,6 @@ if current_dialog.message == "(Chapeau mafieu récupéré)" {
 
 if current_dialog.message == "bruh ..." {
     global.pascalou_dead=true
+    obj_pascalou.sprite_index = s_pascalou_chapeau
 }
 

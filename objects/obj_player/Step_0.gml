@@ -15,6 +15,7 @@ if !global.talking{
     //Right
     if rright && move = false{
     	if !place_meeting(x+sprite_width,y,obj_collision){
+            audio_play_sound(sfx_move,0,false);
             dirimage=0
             targetangle=0;
             targetscale=1;
@@ -43,6 +44,7 @@ if !global.talking{
             targetangle=180;
             targetscale=-1;
             if !place_meeting(x-sprite_width,y,obj_collision){ 
+                            audio_play_sound(sfx_move,0,false); 
                 dirimage=2;
                if move == false{
                    move=true;
@@ -68,6 +70,7 @@ if !global.talking{
             targetangle=90;
             targetscale=1;
          	if !place_meeting(x,y-sprite_height,obj_collision){
+                            audio_play_sound(sfx_move,0,false);
                  dirimage=1;
                  if move == false{
                      move=true;
@@ -93,6 +96,7 @@ if !global.talking{
                 targetangle=270;
                 targetscale=1;
                 if !place_meeting(x,y+sprite_height,obj_collision){ 
+                                audio_play_sound(sfx_move,0,false); 
                     dirimage=3;
                      if move == false{
                          move=true; 
@@ -368,7 +372,7 @@ if     place_meeting(x+sprite_width,y,pnj)
     || place_meeting(x-sprite_width,y,pnj)
     || place_meeting(x,y-20,pnj)
     || place_meeting(x,y+20,pnj){
-    dialog = obj_dialog_clown
+    if !instance_exists(obj_dialog_clown) dialog = obj_dialog_clown
 }
         
 else{

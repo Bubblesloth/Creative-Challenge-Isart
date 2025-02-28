@@ -11,4 +11,9 @@ if current_dialog.message == "Ah bah il a disparu, plutôt bizarre comme rencont
     obj_player.dirimage = 0
 }
 
+if current_dialog.message == "OOHHHH T'ES QUI TOI, QU'EST-CE QUE TI FOUS LÀ ?!"{
+    obj_langousti.image_index=0
+    global.langoustiMusic = true
+}
+
 

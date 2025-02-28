@@ -9,3 +9,14 @@ if current_dialog.message == "EL GRANDE LANGOUSTI !!!" {
 if current_dialog.message == "Passage secret !" {
     global.endfinallangousti = true
 }
+
+if current_dialog.message == "...." {
+    global.langoustiMusic = true
+}
+
+
+if current_dialog.message == "Pardon ??" {
+    global.langoustiMusic = false
+    global.endingmusic = true
+}
+

@@ -47,7 +47,7 @@ dialog.add("(Comment une simple langouste peut-elle être responsable de l'extin
 dialog.add("(J'y crois pas trop...)", false, obj_player);
 dialog.add("Enfin bref... Si tu veux t'aventurer ici bas...", false, obj_indecis);
 dialog.add("Tu auras besoin de deux choses !", false, obj_indecis);
-dialog.add("Tout d'abord un chapeau de mafieu pour passer incognito !", false, obj_indecis);
+dialog.add("Tout d'abord un chapeau de mafieux pour passer incognito !", false, obj_indecis);
 dialog.add("(Chapeau que j'ai rendu à Pascalou le requin...)", false, obj_player);
 dialog.add("Puis !", false, obj_indecis);
 dialog.add("De quoi t'éclairer ici bas car franchement on y voit rien du tout...", false, obj_indecis);

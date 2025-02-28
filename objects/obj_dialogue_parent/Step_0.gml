@@ -16,10 +16,13 @@ else{
     if keyboard_check_released(key_next) && !global.choice || global.choice_selected{
 
         if !firstclick{
+            audio_play_sound(sfx_dialog,0,false);
             showing_dialog=false;
             alpha=0;
         }
-        else firstclick = false;
+        else{
+        firstclick = false;
+            audio_play_sound(sfx_dialog,0,false);}
             
         if global.choice_selected{
             firstclick = true

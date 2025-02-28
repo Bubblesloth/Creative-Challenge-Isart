@@ -22,6 +22,8 @@ dialog.add("Mais je suis devenu un poisson !!!",false,obj_player);
 dialog.add("Comment c'est possible ! Je rêve c'est pas possible !",false,obj_player);
 dialog.add("Je dois me pincer !",false,obj_player);
 dialog.add("Ouf ça fait pas mal c'est pas un rêve...",false,obj_player);
+dialog.add("Tout vas bien, je suis un scientifique...",false,obj_player);
+dialog.add("Pas un poisson, n'importe quoi ahahah !",false,obj_player);
 dialog.add("...",false,obj_player);
 dialog.add("Attends mais...",false,obj_player);
 dialog.add("J'ai des nageoires c'est normal que j'ai pas mal !!",false,obj_player);

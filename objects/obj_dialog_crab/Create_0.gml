@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+sound=false
 
 font = f_dialog1
 

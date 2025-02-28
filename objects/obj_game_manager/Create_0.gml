@@ -70,3 +70,5 @@ global.endfinallangousti = false
 global.white_screen = false
 
 global.credits = false
+
+global.spawn_white = false

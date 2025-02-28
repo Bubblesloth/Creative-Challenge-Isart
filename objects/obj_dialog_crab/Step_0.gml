@@ -8,6 +8,9 @@ if current_dialog.message == "Arg..." {
 
 if current_dialog.message == "....." {
    global.destroy_plank = true
+    if !sound {
+        audio_play_sound(aquhache,0,false);
+    sound=true;}
 }
 
 if current_dialog.message == "(vous obtenez une octopièce)" {

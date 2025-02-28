@@ -17,7 +17,7 @@ if keyboard_check(vk_control){
     global.choice=false
 }*/
 
-
+/*
 draw_text(50,50,room)
 draw_text(50,70, obj_player.y)
 draw_text(50,90, global.credits)
@@ -29,3 +29,17 @@ if keyboard_check(vk_space) global.octopieces =5
 if keyboard_check_pressed(vk_space) global.part2=true
 
 if keyboard_check_pressed(vk_alt) global.playerchapeau = true*/
+/*
+draw_text(50,110, !audio_is_playing(Langousti_Theme))
+draw_text(50,90, !audio_is_playing(Water_theme_0))
+
+draw_text(50,130, obj_sfx.fade_out_1)
+/*
+
+*/
+/*
+if keyboard_check_pressed(vk_space){
+    global.part2=true
+    global.playerchapeau = true
+    global.have_meduse=true   
+}*/

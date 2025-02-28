@@ -22,6 +22,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"649c4247-5818-4df1-9103-e48b8a9374c4","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"649c4247-5818-4df1-9103-e48b8a9374c4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"466ecd94-c158-4bb5-91a0-c47953e0ee6b","blendMode":0,"displayName":"default","isLocked":false,"name":"466ecd94-c158-4bb5-91a0-c47953e0ee6b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"s_player_chapeau",
