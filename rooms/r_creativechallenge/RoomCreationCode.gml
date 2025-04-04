@@ -1,0 +1,1 @@
+global.white_screen = false

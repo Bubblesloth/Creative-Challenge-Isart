@@ -443,9 +443,22 @@ if     place_meeting(x+sprite_width,y,pnj)
 }
     
 else{
-                                                                
+
+                                                   
+pnj = obj_creativechallengepnj
+                                                
+if     place_meeting(x+sprite_width,y,pnj)
+    || place_meeting(x-sprite_width,y,pnj)
+    || place_meeting(x,y-20,pnj)
+    || place_meeting(x,y+20,pnj){
+    dialog = obj_dialog_creativechallenge 
+}
+                                                        
+        
+else{                                              
+    
 pnj = obj_joba_mena
-                                                            
+                                             
 if     place_meeting(x+sprite_width,y,pnj)
     || place_meeting(x-sprite_width,y,pnj)
     || place_meeting(x,y-20,pnj)
@@ -481,7 +494,7 @@ else{
 }
 }
 }
-
+}
 
 
 
